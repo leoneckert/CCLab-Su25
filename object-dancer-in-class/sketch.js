@@ -83,7 +83,7 @@ class LeonDancer {
     
 
     if(this.armMoving == true){
-      this.armAngle++;
+      this.armAngle+=4;
     }
     // time passed since last keypress
     // let timePassedSinceKeyPress = frameCount - this.timeOfLastKeyPress;
