@@ -211,10 +211,10 @@ class LeonDancer {
     // your dancer should perform some kind of reaction (i.e. make a special move or gesture) 
 
     // this.sinInputBodyMotion = 0;
-    // this.ySpeed = -10;
+    this.ySpeed = -10;
 
-    this.xGridIncrementGOAL = floor(random(3,20))
-    this.yGridIncrementGOAL = floor(random(3,20))
+    // this.xGridIncrementGOAL = floor(random(3,20))
+    // this.yGridIncrementGOAL = floor(random(3,20))
 
   }
   drawReferenceShapes() {
